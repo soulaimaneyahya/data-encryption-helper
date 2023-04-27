@@ -1,8 +1,9 @@
 # data-encryption-helper
 
 <p align="center">
-<a href=""><img src="./assets/tests.svg" alt="Tests"></a>
-<a href=""><img src="./assets/license.svg" alt="License"></a>
+<a href="https://github.com/soulaimaneyahya/data-encryption-helper"><img src="./assets/tests.svg" alt="Tests"></a>
+<a href="https://packagist.org/packages/soulaimaneyh/data-encryption-helper"><img src="./assets/version.svg" alt="Version"></a>
+<a href="https://github.com/soulaimaneyahya/data-encryption-helper"><img src="./assets/license.svg" alt="License"></a>
 </p>
 
 A package that provides easy-to-use encryption and decryption functions for sensitive data in your PHP application.

@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 20" width="116" height="20">
+	<title>version</title>
+	<defs>
+		<image  width="116" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAUCAMAAABrsOlPAAAAAXNSR0IB2cksfwAAAe9QTFRFSUlJX19fX19fXl5e9oJD9oJD9oJC220kXV1dXV1d9YFC9IBAXFxcXFxc9IBB839A839BW1tbWlpa8n4/WVlZ+vr6YWFhY2Nj////ZmZmq6ur8X0+WFhYX19fVlZWQUFB/f398Hw9V1dXvr6+1NTU4+PjkJCQ1dXV6+vr5+fnaWlpg4OD3d3d6enpgoKCrq6uzs7O4eHh7Ozs2dnZ6Ojourq6ubm573s8ZGRkQ0ND8fHxPz8/QEBApKSksbGxaGho7+/vYmJidHR0qqqqycnJSEhIVVVVZWVlbm5u5eXlioqKb29vS0tLR0dHVFRU7no7UVFRUlJS29vbenp6jIyMwMDAwcHBUFBQrKys0dHRxcXFa2trlZWV7Xk64uLihYWF5OTkgYGBv7+/i4uLwsLCc3Nzjo6OTk5OiYmJtbW18vLy/Pz87Hg5U1NThoaGT09Pp6enYGBgbW1tTExMdXV17u7ulpaWSkpKRkZG63c41tbW6urq2trax8fHyMjId3d339/f4ODge3t7kpKSu7u7eHh43t7e5ubmnZ2dTU1Nj4+P7e3t6nY3PDw8Pj4+PT09OTk5Ozs7kZGRRUVF6XU2xMTE6HQ1Nzc3Ojo653M0Tk5O5nIz6HM0Tk5O5XEy5nEyTU1NTExM5HAx5XEy5HAwjJwOnQAAAKV0Uk5TB4/o///njweP//+P6P///+n//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+f/5o//jo/n/+ePmJaeOQAAAolJREFUeJyt1ItX0lAcB/BbVmalBLEcDadbYFlhZdlMlkLpbAl7mLqKsDKVHizKR7ayh72MGiKFFFlW1h/anRePFcejc33O4dzd734/fueenQ2ADRtLLNhk2uYtpWBrmSXb1mE72FFuSUWBzVDxL9vfCulOYLfGth7AYc0ug6mJsP5/DDV5TjjUuTJsd1FUibvQxZ5ytBIEYXooAdwrw6qKIrKaRBc1ZWilKMr0UArQCL7X462l6X376zwHaPrgIZ+3nsZK6MNH7EvR0YZjx2Gdw9FY5/OcwL1el9HHMOsZSiJ400m6uYq0+9lTLWRrIMi6T5NY2Zm2dg5FHQGX/ywP65znPCzbGaoJVwtGnygyZofaGMAhuMTJXee57rYuvoer7YU7hcMuXAwLhaj7ksJFeFjnbm1uvFzF1ThRXzQqmj4pAwQEh7++zitXK9lr/cL1gcUM62kYFArRUK8gRHhYRyuxGzdvddx2o754PG56qAhUBC9X7/DS0EBCvduv3gsMq8FBFRsZbYgUItdYE3efh3XkaGT8Qd/g2LAqGH2aplEmhxJxICP4w0cTQVl5POF50i8nnj7jJ5/LmDNUX1eJotiLgO/lBKzjXr2emnyTfPuODxp9uq6LJoeKOpAQ3J+aHpEUdtrPVkvSeDqdDkkzitSeihUiOZN63yJJM1IonUp/kMKZVMLoy2azurmjUloWKAiurGJ2bGpWLo5zkKmnymi5HEggHxOr8H/K+JPFcd6gEWsdSYhZWA8+xyyZM+T15ZcVfovhp5GiCIphGDEKXynR2MCEYaJaNg/Lv4CvSUvmkbwWZShRjGq6nsvPLVu8aax/bOe/AfD9x4gFC0uMf1tYi5+/Sn8DPJO6B1xEPjUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 10px;line-height: 17px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="v1.1" style="transform: matrix(1,0,0,1,75.187,14.492)" >
+		<tspan x="0" y="0" class="t0">v</tspan><tspan  y="0" class="t0">1</tspan><tspan  y="0" class="t0">.</tspan><tspan  y="0" class="t0">1
+</tspan>
+	</text>
+</svg>
