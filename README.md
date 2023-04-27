@@ -1,5 +1,10 @@
 # data-encryption-helper
 
+<p align="center">
+<a href=""><img src="./assets/tests.svg" alt="Tests"></a>
+<a href=""><img src="./assets/license.svg" alt="License"></a>
+</p>
+
 A package that provides easy-to-use encryption and decryption functions for sensitive data in your PHP application.
 This package include features like symmetric and asymmetric encryption, key management, and support for popular encryption algorithms.
 
@@ -47,6 +52,11 @@ return view('user', [
 ]);
 ```
 
+### Run Tests
+
+```shell
+composer test
+```
 ---
 
 Need helps? Reach me out

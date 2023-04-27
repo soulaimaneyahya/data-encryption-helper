@@ -20,7 +20,12 @@
         }
     ],
     "scripts": {
-        "test": "vendor/bin/phpunit tests/Feature"
+        "test": "vendor/bin/phpunit tests/Feature",
+        "php-psr": [
+            "./vendor/bin/phpcs src/Facades/EncryptionFacade.php --standard=PSR2",
+            "./vendor/bin/phpcs src/Facades/EncryptionFacade.php --standard=PSR2",
+            "./vendor/bin/phpcs src/Providers/DataEncryptionHelperProvider.php --standard=PSR2"
+        ]
     },
     "minimum-stability": "dev",
     "require": {

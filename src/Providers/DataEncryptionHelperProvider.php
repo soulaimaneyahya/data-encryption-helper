@@ -19,7 +19,7 @@ class DataEncryptionHelperProvider extends ServiceProvider
         $this->mergeConfigFrom($this->basePath('config/encrypt.php'), 'encrypt');
 
         // register facades
-        $this->app->bind('encryption', function(){
+        $this->app->bind('encryption', function () {
             return new EncryptionHelper();
         });
     }
