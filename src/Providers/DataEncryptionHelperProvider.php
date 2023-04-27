@@ -3,6 +3,7 @@
 namespace Soulaimaneyh\DataEncryptionHelper\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Soulaimaneyh\DataEncryptionHelper\EncryptionHelper;
 
 class DataEncryptionHelperProvider extends ServiceProvider
 {
@@ -16,6 +17,11 @@ class DataEncryptionHelperProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom($this->basePath('config/encrypt.php'), 'encrypt');
+
+        // register facades
+        $this->app->bind('encryption', function(){
+            return new EncryptionHelper();
+        });
     }
 
     protected function basePath($path = "")

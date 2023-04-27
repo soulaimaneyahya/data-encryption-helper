@@ -8,14 +8,24 @@
             "Soulaimaneyh\\DataEncryptionHelper\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Soulaimaneyh\\DataEncryptionHelper\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Soulaimane yahya",
             "email": "soulaimaneyh07@gmail.com"
         }
     ],
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/Feature"
+    },
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
     "require-dev": {
         "orchestra/testbench": "dev-develop",
         "squizlabs/php_codesniffer": "^3.7"
@@ -24,7 +34,10 @@
         "laravel": {
             "providers": [
                 "Soulaimaneyh\\DataEncryptionHelper\\Providers\\DataEncryptionHelperProvider"
-            ]
+            ],
+            "aliases": {
+                "Encryption": "Soulaimaneyh\\DataEncryptionHelper\\Facades\\EncryptionFacade"
+            }
         }
     }
 }

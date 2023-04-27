@@ -2,9 +2,9 @@
 
 namespace Soulaimaneyh\DataEncryptionHelper;
 
-class DataEncryptionHelperProvider
+class EncryptionHelper
 {
-    public function encryptData(string $data): string
+    public function encrypt(string $data): string
     {
         return openssl_encrypt(
             $data,
@@ -15,7 +15,7 @@ class DataEncryptionHelperProvider
         );
     }
 
-    public function decryptData(string $encrypted): string
+    public function decrypt(string $encrypted): string
     {
         return openssl_decrypt(
             $encrypted,
