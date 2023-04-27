@@ -1,0 +1,30 @@
+{
+    "name": "soulaimaneyh/data-encryption-helper",
+    "description": "Data Encryption Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Soulaimaneyh\\DataEncryptionHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Soulaimane yahya",
+            "email": "soulaimaneyh07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "dev-develop",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soulaimaneyh\\DataEncryptionHelper\\Providers\\DataEncryptionHelperProvider"
+            ]
+        }
+    }
+}
